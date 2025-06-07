@@ -2,7 +2,6 @@ type Listener<T> = (value: T) => void;
 
 export class Store<State> {
   public state: State;
-
   private listeners: Set<Listener<State>>;
 
   static create<T>(state: T) {
