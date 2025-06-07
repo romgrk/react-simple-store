@@ -1,0 +1,47 @@
+{
+  "name": "react-simple-store",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "prepack": "pnpm run build && npmignore --auto",
+    "build": "tsc",
+    "start": "tsc --watch",
+    "docs": "typedoc --readme none --plugin typedoc-plugin-markdown --out ./docs ./src/index.ts",
+    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest --watch"
+  },
+  "exports": {
+    ".": "./build/index.js",
+    "./*": "./build/*",
+    "./string": "./build/string.js"
+  },
+  "keywords": [
+    "react",
+    "store",
+    "reactivity",
+    "selector"
+  ],
+  "author": "romgrk",
+  "license": "MIT",
+  "description": "A react store with selectors",
+  "publishConfig": {
+    "ignore": [
+      "!build/",
+      "docs/",
+      "src/",
+      "test/"
+    ]
+  },
+  "dependencies": {
+    "reselect": "^5.1.1",
+    "use-sync-external-store": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/use-sync-external-store": "^1.5.0",
+    "npmignore": "^0.3.1",
+    "tsdoc-markdown": "^1.2.0",
+    "typedoc": "^0.28.5",
+    "typedoc-plugin-markdown": "^4.6.4",
+    "typescript": "^5.8.3"
+  }
+}

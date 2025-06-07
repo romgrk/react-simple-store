@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2017"],
+    "target": "es2022",
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "preserveConstEnums": true,
+    "outDir": "./build",
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.test.ts"]
+}
