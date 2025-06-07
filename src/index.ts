@@ -1,3 +1,3 @@
-export * from './createSelector';
-export * from './useSelector';
-export * from './Store';
+export * from './createSelector.js';
+export * from './useSelector.js';
+export * from './Store.js';

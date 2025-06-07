@@ -34,7 +34,7 @@ function Cell({ index }) {
   return (
     <button
       ref={ref}
-      onClick={() => store.update({ ...store.state, focus: index })}
+      onClick={() => store.set('focus', index)}
       className={clsx({ focus })}
     >
       {index}
