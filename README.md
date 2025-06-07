@@ -4,6 +4,14 @@ Minimalist fine-grained reactivity in React, with a selector-based store.
 
 [Explainer post: Reactivity is easy](https://romgrk.com/posts/reactivity-is-easy/)
 
+## Install
+
+```
+pnpm install store-x-selector
+```
+
+## Usage
+
 ```tsx
 import {
   useSelector,
