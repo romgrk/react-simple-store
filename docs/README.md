@@ -1,8 +1,8 @@
-**react-x-store**
+**store-x-selector**
 
 ***
 
-# react-x-store
+# store-x-selector
 
 ## Classes
 

@@ -1,8 +1,8 @@
-[**react-x-store**](../README.md)
+[**store-x-selector**](../README.md)
 
 ***
 
-[react-x-store](../README.md) / createSelector
+[store-x-selector](../README.md) / createSelector
 
 # Variable: createSelector
 

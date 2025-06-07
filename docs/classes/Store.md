@@ -1,8 +1,8 @@
-[**react-x-store**](../README.md)
+[**store-x-selector**](../README.md)
 
 ***
 
-[react-x-store](../README.md) / Store
+[store-x-selector](../README.md) / Store
 
 # Class: Store\<State\>
 

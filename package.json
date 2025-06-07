@@ -1,5 +1,5 @@
 {
-  "name": "react-x-store",
+  "name": "store-x-selector",
   "version": "0.0.1",
   "main": "build/index.js",
   "type": "module",
