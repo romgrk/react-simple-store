@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "main": "build/index.js",
   "type": "module",
+  "homepage": "https://github.com/romgrk/store-x-selector",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romgrk/store-x-selector.git"
+  },
   "scripts": {
     "prepack": "pnpm run build && npmignore --auto",
     "build": "tsc",
