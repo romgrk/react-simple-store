@@ -30,12 +30,10 @@ export function useSelector(
   a2?: unknown,
   a3?: unknown,
 ): unknown {
-  const selectorWithArgs = (state: unknown) => selector(state, a1, a2, a3);
-
   return useSyncExternalStoreWithSelector(
     store.subscribe,
     store.getSnapshot,
     store.getSnapshot,
-    selectorWithArgs,
+    (state: unknown) => selector(state, a1, a2, a3),
   );
 }
