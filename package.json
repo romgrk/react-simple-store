@@ -28,7 +28,7 @@
   ],
   "author": "romgrk",
   "license": "MIT",
-  "description": "A react store with selectors",
+  "description": "A minimalist react store with selectors",
   "publishConfig": {
     "ignore": [
       "!build/",
