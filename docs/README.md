@@ -1,8 +1,8 @@
-**react-simple-store**
+**react-x-store**
 
 ***
 
-# react-simple-store
+# react-x-store
 
 ## Classes
 

@@ -1,8 +1,8 @@
-[**react-simple-store**](../README.md)
+[**react-x-store**](../README.md)
 
 ***
 
-[react-simple-store](../README.md) / useSelector
+[react-x-store](../README.md) / useSelector
 
 # Function: useSelector()
 
